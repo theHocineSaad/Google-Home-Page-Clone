@@ -1,0 +1,160 @@
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.leftLinks{
+    margin-left: 9px;
+}
+
+.leftLinks ul a{
+    opacity: 0.75;
+}
+
+li{
+    display: inline;
+    padding-left: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.rightLinks{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+li:nth-child(2){
+    padding-right: 15px;
+}
+
+.menu {
+    background: url('http://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-position: -132px -38px;
+    opacity: .55;
+  }
+
+  .menu:hover{
+    opacity: 1;
+  }
+
+  .rightLinks a, .leftLinks a{
+      font-size: 13px;
+  }
+
+  .rightLinks ul a:hover, .leftLinks a:hover{
+    text-decoration: underline;
+}
+
+.rightLinks ul a:hover{
+    opacity: 0.75;
+}
+
+.b-signIn{
+    padding: 0 12px;
+    margin-left: 15px;
+    border-radius: 2px;
+    line-height: 28px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+    cursor: default;
+}
+
+.b-signIn:hover{
+    box-shadow: 0px 0px 4px -2.5px rgba(26,13,171,1);
+}
+
+main{
+    margin: 47px auto 0 auto;
+    max-width: 50%;
+}
+
+.logo img{
+    display: block;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+
+.searchBar{
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin: 30px auto;
+    width: 582px;
+    align-items: center;
+    display: flex;
+}
+
+.searchBar:hover{
+    box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.56);
+}
+
+.searchField{
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.loop {
+    margin: auto 15px;
+}
+
+.loopIcon {
+    align-items: center;
+    margin-top: 8px;
+    color: #9AA0A6;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+    width: 20px;
+}
+
+.mic{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 15px 0 7px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.micIcon{
+    background: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+    background-size: 24px;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
